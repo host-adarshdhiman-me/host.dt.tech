@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects</title>
+    <link rel="shortcut icon" href="image.jpg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(143deg, rgba(14, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(1, 48, 136, 1) 100%);
+            margin: 0;
+            padding: 0;
+
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .project {
+            display: flex;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project div {
+            flex: 1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid black;
+            border-radius: 4px;
+            float: right;
+            margin: 3px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 767px) {
+            .project {
+                flex-direction: column;
+                /* Stack items vertically on smaller screens */
+            }
+
+            .project div,
+            .image {
+                width: 100%;
+                /* Make each element fill the container width */
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Our Projects</h1>
+    </header>
+
+    <section id="projects">
+
+        <div class="project">
+            <div>
+                <h3>Personal Portfolio Website</h3>
+                <div class="image">
+                    <img src="ppw.png" alt="Project 1">
+                </div>
+                <a href="https://www.adarshdhiman.me/" class="btn btn-primary">View Project</a>
+            </div>
+
+        </div>
+
+        <div class="project">
+            <div>
+                <h3>Company Website</h3>
+                <div class="image">
+                    <img src="cw.png" alt="Project 2">
+                </div>
+
+                <a href="https://www.dhimanindustries.tech/" class="btn btn-primary">View Project</a>
+            </div>
+
+        </div>
+
+        <div class="project">
+            <div>
+                <h3>Prem Cloth House Website</h3>
+                <div class="image">
+                    <img src="pch.png" alt="Project 3">
+                </div>
+                <a href="https://dhimantechbytes.github.io/PCH/" class="btn btn-primary">View Project</a>
+            </div>
+
+        </div>
+
+        <div class="project">
+            <div>
+                <h3>NHPS Website</h3>
+                <div class="image">
+                    <img src="nhps.png" alt="Project 4">
+                </div>
+                <a href="https://dhimantechbytes.github.io/NHPS-Website/" class="btn btn-primary">View Project</a>
+            </div>
+
+        </div>
+
+        <!-- Add more project sections as needed -->
+
+    </section>
+
+    <!-- Bootstrap JS (optional, if you need Bootstrap features) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
